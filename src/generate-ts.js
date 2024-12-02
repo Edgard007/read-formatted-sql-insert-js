@@ -48,8 +48,6 @@ statements.forEach((statement) => {
   }
 });
 
-console.log("TABLES", tables)
-
 let outputContent = ""; // Content to write to the output file
 
 // Iterate over each grouped table

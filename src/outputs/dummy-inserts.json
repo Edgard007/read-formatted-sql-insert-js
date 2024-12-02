@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "nombre_entidad": "Empleados",
+      "tabla": "empleados",
+      "total": 2,
+      "operacion": "INSERT",
+      "registros": [
+        {
+          "emp_id": 1,
+          "emp_nombre": "Ana Martínez",
+          "emp_edad": 28,
+          "emp_departamento": "Recursos Humanos",
+          "emp_salario": 3500,
+          "emp_ult_mod_usuario": "admin",
+          "emp_ult_mod_fecha": "2024-12-02"
+        },
+        {
+          "emp_id": 2,
+          "emp_nombre": "Luis Pérez",
+          "emp_edad": 34,
+          "emp_departamento": "Ventas",
+          "emp_salario": 4200,
+          "emp_ult_mod_usuario": "admin",
+          "emp_ult_mod_fecha": "2024-12-02"
+        }
+      ]
+    },
+    {
+      "nombre_entidad": "Productos",
+      "tabla": "productos",
+      "total": 2,
+      "operacion": "INSERT",
+      "registros": [
+        {
+          "prod_id": 101,
+          "prod_nombre": "Smartphone Galaxy S23",
+          "prod_categoria": "Electrónica",
+          "prod_precio": 899.99,
+          "prod_stock": 150,
+          "prod_ult_mod_usuario": "admin",
+          "prod_ult_mod_fecha": "2024-12-02"
+        },
+        {
+          "prod_id": 102,
+          "prod_nombre": "Laptop Dell XPS 13",
+          "prod_categoria": "Electrónica",
+          "prod_precio": 1200,
+          "prod_stock": 75,
+          "prod_ult_mod_usuario": "admin",
+          "prod_ult_mod_fecha": "2024-12-02"
+        }
+      ]
+    },
+    {
+      "nombre_entidad": "Ordenes",
+      "tabla": "ordenes",
+      "total": 1,
+      "operacion": "INSERT",
+      "registros": [
+        {
+          "orden_id": 2024,
+          "orden_cliente_fk": 1,
+          "orden_producto_fk": 101,
+          "orden_fecha": "2024-12-02",
+          "orden_total": 899.99,
+          "orden_ult_mod_usuario": "admin",
+          "orden_ult_mod_fecha": "2024-12-02"
+        }
+      ]
+    }
+  ]
+}
